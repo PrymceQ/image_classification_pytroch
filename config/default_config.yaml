@@ -1,0 +1,28 @@
+DATASET:
+  TRAIN_DIR: 'dataset/test'
+  TEST_DIR: 'dataset/test'
+  NUM_CLASSES: 2
+  IDX_MAP: ['1','2']
+
+MODEL:
+  MODEL_NAME: 'mobilenet-v2' # 'efficientnet-b2' / 'resnet-50' / 'mobilenet-v2'
+
+TRAIN:
+  TRAIN_BATCH_SIZE: 2
+  INPUT_SIZE: (128,128)
+  MAX_EPOCH: 10
+  GPUS: 1
+  WEIGHT_DECAY: 5e-4
+  MOMENTUM: 0.9
+  LR: 1e-3
+  # new
+  COLOR_STYLE: 'RGB'
+  MEAN: [0.33286392, 0.414276,   0.55721495]
+  STD: [0.14440127, 0.16310857, 0.20731387]
+TEST:
+  TEST_BATCH_SIZE: 2
+  INPUT_SIZE: (128,128)
+  COLOR_STYLE: 'RGB'
+  MEAN: [0.33286392, 0.414276,   0.55721495]
+  STD: [0.14440127, 0.16310857, 0.20731387]
+

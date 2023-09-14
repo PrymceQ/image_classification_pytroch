@@ -5,6 +5,7 @@ LOCAL_PRETRAINED = {
     'resnet-50': 'ckpts/pretrained_resnet50.pth',
     'mobilenet-v2': 'ckpts/pretrained_mobilenet-v2.pth',
     'efficientnet-b2': 'ckpts/pretrained_efficientnet-b2.pth',
+    'vit': '',
 }
 
 model_urls = {

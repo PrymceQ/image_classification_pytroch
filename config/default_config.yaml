@@ -5,7 +5,7 @@ DATASET:
   IDX_MAP: ['1','2']
 
 MODEL:
-  MODEL_NAME: 'mobilenet-v2' # 'efficientnet-b2' / 'resnet-50' / 'mobilenet-v2'
+  MODEL_NAME: 'vit' # 'efficientnet-b2' / 'resnet-50' / 'mobilenet-v2'
 
 TRAIN:
   TRAIN_BATCH_SIZE: 2

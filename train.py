@@ -16,13 +16,14 @@ from data import CustomImageFolderDataset
 from data import Compose, ColorStyle, Resize, ToTensor, Normalize
 from data import RandomRotate, RandomHorizontalFlip, RandomVerticalFlip, RandomGaussianBlur
 from utils import adjust_learning_rate_cosine, adjust_learning_rate_step, LabelSmoothingCrossEntropy
-from models import Efficientnet, Resnet, Mobilenet
+from models import Efficientnet, Resnet, Mobilenet, VisionTransformer
 
 MODEL_NAMES = {
     'resnet-50': Resnet,
     'resnet-101': Resnet,
     'efficientnet-b2': Efficientnet,
     'mobilenet-v2': Mobilenet,
+    'vit': VisionTransformer,
 }
 
 

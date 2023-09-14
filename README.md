@@ -2,6 +2,7 @@
 1. efficientnet-b2
 2. resnet-50
 3. mobilenet-v2
+4. vit
 
 ### 创建数据集
 - Step1: 下载数据，处理数据格式
